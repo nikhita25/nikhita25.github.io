@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+header{
+    background: #1C6DD0;
+
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    font-family: Copperplate, cursive;
+}
+
+h2 {
+    font-family: 'Copperplate', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding: 5px;
+}
+
+.section-wrap {
+    background: white;
+    padding: 10px;
+    padding-bottom: 400px;
+    color: #1C6DD0;
+
+}
+
+section {
+    border-style: solid;
+    border-color: #1C6DD0;
+    border-bottom-width: thick;
+}
+
+.projects{
+    width: 75%;
+    display: inline-table;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.repo {
+    padding: 20px;
+    margin: 10px;
+    width: 75%;
+    display: inline-table;
+    border-radius: 10px;
+}
+
+.repo, .projects {
+    font-family: Courier;
+    font-size: 18px;
+}
+
+
+a{
+    color: #1C6DD0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+footer{
+    background: #1C6DD0;
+    padding: 20px;
+    font-size: 50px;
+    font-family: Copperplate, cursive;
+}
+
+
