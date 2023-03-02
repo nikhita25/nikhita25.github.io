@@ -6,16 +6,19 @@ html {
 
 }
 header{
-    background: #1C6DD0;
-
-    color: white;
+    
+    background-image: url("images/image4.webp");
+    background-size: cover;
+    color: black;
     padding: 25px;
-    font-size: 20px;
-    font-family: Copperplate, cursive;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif, cursive;
+    border-radius: 35px;
+    padding: 40px
 }
 
 h2 {
-    font-family: 'Copperplate', cursive;
+    font-family: 'Times New Roman', cursive;
     font-size: 25px;
     font-weight: 400;
     margin: 0;
@@ -24,17 +27,13 @@ h2 {
 
 .section-wrap {
     background: white;
-    padding: 10px;
-    padding-bottom: 400px;
-    color: #1C6DD0;
+    padding: 50px;
+    padding-bottom: 100px;
+    color: hsl(353, 38%, 60%);;
 
 }
 
-section {
-    border-style: solid;
-    border-color: #1C6DD0;
-    border-bottom-width: thick;
-}
+
 
 .projects{
     width: 75%;
@@ -42,6 +41,11 @@ section {
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: hsl(353, 38%, 60%);
+    background-image: url("images/image8.jpeg");
+   
+
 }
 
 .repo {
@@ -50,6 +54,10 @@ section {
     width: 75%;
     display: inline-table;
     border-radius: 10px;
+    border-style: solid;
+    border-color: hsl(353, 38%, 60%);
+    background-image: url("images/image8.jpeg");
+    background-size: cover;
 }
 
 .repo, .projects {
@@ -59,7 +67,7 @@ section {
 
 
 a{
-    color: #1C6DD0;
+    color: hsl(353, 38%, 60%);;
 }
 a:hover{
     text-decoration: none;
@@ -67,7 +75,7 @@ a:hover{
 
 
 footer{
-    background: #1C6DD0;
+    background: hsl(353, 38%, 60%);;
     padding: 20px;
     font-size: 50px;
     font-family: Copperplate, cursive;
